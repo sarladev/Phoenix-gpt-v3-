@@ -1,0 +1,53 @@
+@media(max-width: 850px) {
+  body {
+    overflow: auto;
+  }
+
+  .app {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: -305px;
+    top: 0;
+    height: 100vh;
+    z-index: 20;
+    transition: 0.3s;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .main {
+    min-height: 100vh;
+  }
+
+  .topbar h1 {
+    font-size: 28px;
+  }
+
+  .bubble {
+    max-width: 82vw;
+  }
+
+  .chat-box {
+    padding: 18px;
+  }
+
+  .quick,
+  .actions {
+    overflow-x: auto;
+  }
+
+  .composer {
+    position: sticky;
+    bottom: 0;
+  }
+  }
